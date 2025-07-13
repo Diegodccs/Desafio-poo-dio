@@ -5,19 +5,19 @@ import java.time.LocalDate;
 public class Main {
     public static void main(String[] args){
         Curso curso1 = new Curso();
-        curso1.setTitulo("curso java");
-        curso1.setDescricao("descrição do curso");
+        curso1.setTitulo("Curso java");
+        curso1.setDescricao("Intrudução básica e POO.");
         curso1.setCargaHoraria(8);
 
         Curso curso2 = new Curso();
-        curso2.setTitulo("curso java");
-        curso2.setDescricao("descrição do curso");
+        curso2.setTitulo("Curso java e Kotlin");
+        curso2.setDescricao("Ampliando o conhecimento Básico e intermediario. ");
         curso2.setCargaHoraria(5);
 
 
         Mentoria mentoria = new Mentoria();
-        mentoria.setTitulo("mentoria de java");
-        mentoria.setDescricao("descrição mentoria java");
+        mentoria.setTitulo("Mentoria de java");
+        mentoria.setDescricao("Práticas em APIs, Banco de dados e frameworks. tudo isso em Java");
         mentoria.setData(LocalDate.now());
 
      /*   System.out.println(curso1);
@@ -27,7 +27,7 @@ public class Main {
 
         Bootcamp bootcamp = new Bootcamp();
         bootcamp.setNome("Bootcamp Java Developer");
-        bootcamp.setDescricao("Descrição Bootcamp Java Developer");
+        bootcamp.setDescricao("Apredendo a desenvolver em POO, desenvolvimento de aplicações orientadas a objetos, com práticas em APIs, banco de dados e frameworks modernos. ");
         bootcamp.getConteudos().add(curso1);
         bootcamp.getConteudos().add(curso2);
         bootcamp.getConteudos().add(mentoria);
